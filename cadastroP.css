@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: #243B53;
+    color: black;
+    display: flex;
+}
+
+.crie{
+    background-color: #F7FAFC;
+    width: 747px;
+    margin-left: 00px;
+    margin-top: -150px;
+    height: 912px;
+    padding-top: 200px;
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+.h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-top: 10px;
+}
+
+.p{
+    font-size: 1.2rem;
+}
+
+input{
+    width: 500px;
+    height: 20px;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .3s ease, box-shadow .3s ease;
+}
+
+input:focus{
+    border-color: #243B53;
+    box-shadow: 0 0 6px rgba(27, 38, 59, 0.3);
+}
+
+a{
+    text-decoration: none;
+    color: #F7FAFC
+}
+
+.btn{
+    border: 0;
+    background-color: #243B53;
+    height: 40px;
+    width: 200px;
+    border-radius: 0.5cm;
+    text-align: center;
+    margin-left: 155px;
+}
+
+.btn:hover{
+    background-color: #A3B3C2;
+    transform: translateY(-2px);
+}
+
+.usuario{
+    margin-bottom: 20px;
+}
+
+.nome{
+    margin-bottom: 20px;
+}
+
+.email{
+    margin-bottom: 20px;
+}
+
+.tel{
+    margin-bottom: 20px;
+}
+
+.senha{
+    margin-bottom: 20px;
+}
+
+
+.bv{
+    color: #F7FAFC;
+    margin-left: 120px;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 1.5rem;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}

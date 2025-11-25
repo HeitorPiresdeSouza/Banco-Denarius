@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #F7FAFC;
+  
+}
+
+header {
+  background-color: #243B53;
+  color: #F7FAFC;
+  padding: 50px 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #F7FAFC;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  color: #D0D4D9;
+}
+
+.hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #243B53;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #F7FAFC;
+}
+
+.btn:hover {
+  background-color: #1a2b3d;
+}
+
+.categorias {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 8px;
+  height: 330px;
+}
+
+.categorias h3 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  height: 150px;
+  width: 1500px;
+  margin-left: 14px;
+  
+}
+
+.card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(141, 141, 141, 0.2);
+}
+
+footer {
+  background-color: #243B53;
+  color: #F7FAFC;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 65px;
+    width: 4870px;
+    margin-left: -1670px;
+    margin-top: 20px;
+   
+}
+
+.cartoes h4 {
+    display: flex;
+    margin-top: 6px;
+    margin-left: 677px;
+}
+
+.funcoes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 150px;
+    width: 1500px;
+    margin-left: 14px;
+  
+}
+.maismais {
+      background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.categorias h2 {
+    margin-bottom: 30px;
+    font-size: 22px;
+}

@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #F7FAFC;
+}
+
+.container {
+  background-color: #243B53;
+  color: #F7FAFC;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 10px;
+}
+
+.perfil {
+  background-color: #243B53;
+  color: #F7FAFC;
+  height: 80dvh;
+  width: 500px;
+  margin-top: 25px;
+  margin-left: 455px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.perfil img {
+  border-radius: 100px;
+  width: 200px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.perfil h2 {
+  margin-left: 170px;
+  margin-top: 10px;
+}
+
+.perfil p {
+  margin-left: 125px;
+  margin-top: 3px;
+  display: flex;
+}
+
+
+.opcoes {
+  background-color: #243B53;
+  color: #F7FAFC;
+  height: 80dvh;
+  width: 500px;
+  margin-top: -769.5px;
+  margin-left: 931px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opcoes h1 {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+
+.opcoes img{
+  border-radius: 15px;
+  height: 80dvh;
+}

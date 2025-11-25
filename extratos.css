@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #F7FAFC;
+}
+
+header {
+  background-color: #243B53;
+  color: #F7FAFC;
+  padding: 50px 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #F7FAFC;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  color: #D0D4D9;
+}
+
+main {
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #26384d;
+}
+
+.extrato-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: 1780px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.data {
+    font-size: 12px;
+    color: #666;
+}
+
+.valor {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.positivo {
+    color: #2e7d32;
+}
+
+.negativo {
+    color: #c62828;
+}
+
+footer {
+  background-color: #243B53;
+  color: #F7FAFC;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 308px;
+}
